@@ -13,7 +13,7 @@ global.mongodb = "https://mongo.giftedtech.my.id"; // DO NOT Change this.... Cha
 global.pluginsdb = "https://cmds.giftedtech.my.id"; // DO NOT Change this.... Change and Regret Later...
  
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "", // Add sess Id here espwcially when deploying on panels else use app.json and .env file...
+SESSION_ID: process.env.SESSION_ID || "Gifted~TqhUTSjb#lWBfUm2w4ifbN7SRMWPmvou6OkRWkXZNZH_TQY5LqA4", // Add sess Id here espwcially when deploying on panels else use app.json and .env file...
 SUDO_NUMBERS: process.env.SUDO_NUMBERS || "", //Add multiple Numbers with Country Codes without (+) Separated by Comma...
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 AUTOLIKE_STATUS: process.env.AUTOLIKE_STATUS || "true",
@@ -24,7 +24,7 @@ MODE: process.env.MODE || "public",
 OWNER_NUMBER: process.env.OWNER_NUMBER || "", // Only 1 owner Number Here, others Add to sudo numbers...
 OWNER_NAME: process.env.OWNER_NAME || "𝐆𝐈𝐅𝐓𝐄𝐃 𝐓𝐄𝐂𝐇", // Input Yours custom...(Maintain font for Flow)
 PREFIX: process.env.PREFIX || ".",
-ANTIDELETE: process.env.ANTIDELETE || "false",
+ANTIDELETE: process.env.ANTIDELETE || "true",
 ANTICALL: process.env.ANTICALL || "false",
 ANTICALL_MSG: process.env.ANTICALL_MSG || "*_📞 Auto Call Reject Mode Activated by Gifted-Md. 📵 No Calls Allowed Dude!_*",
 AUTO_REACT: process.env.AUTO_REACT || "false",
